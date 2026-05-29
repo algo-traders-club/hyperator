@@ -4,10 +4,6 @@ The simplest possible Hyperliquid trading bot that does something real. It's thr
 
 It trades the **HYPE perp** (`HYPE/USDC:USDC`) by default, and it runs on **testnet in dry-run mode out of the box** — so the first time you run it, it cannot place a real order or lose real money.
 
-## Read the PRD first
-
-[`docs/PRD.md`](docs/PRD.md) is the source of truth for Hyperator — its philosophy, architecture, and every design decision. **Read it before changing anything or opening a PR.** This README is the front door; the PRD is the spec.
-
 ## What it is / what it isn't
 
 Hyperator is a **teaching artifact**: a complete, readable trading bot you can clone, run, and understand top-to-bottom in one sitting.
