@@ -91,7 +91,13 @@ PRD §2 walks through all of it in detail.
 
 Hyperator is intentionally complete on its own — clone it, run it, modify it, and never pay a cent. That's the point. It's the free public on-ramp to the [Algo Traders Club](https://github.com/algo-traders-club) curriculum (PRD §1.5).
 
-When you find yourself wanting something Hyperator deliberately leaves out — a risk manager with drawdown limits, a strategy plugin system, a CLI, an HTTP server, deployment, vaults — the PRD §7 deferral table is effectively the syllabus: it maps each of those to where it's taught. The three ATC tracks pick up exactly where Hyperator stops:
+When you find yourself wanting something Hyperator deliberately leaves out — a risk manager with drawdown limits, a strategy plugin system, a CLI, an HTTP server, deployment, vaults — the PRD §7 deferral table is effectively the syllabus: it maps each of those to where it's taught.
+
+From here the path is: Hyperator (this free on-ramp) → **The Foundation** → one of three tracks. The Foundation is the mandatory next step every student takes before choosing a track:
+
+- **The Foundation** (mandatory, taken by all students): the Hyperliquid stack, ERC-4626/7540, the four-role vault architecture (Owner/Curator/Allocator/Sentinel), AI coding workflow setup, and risk theory.
+
+Once you've done the Foundation, the three tracks branch from it and pick up exactly where Hyperator stops:
 
 - **Track A — The Operator:** risk manager, strategy plugins, CLI, deployment, OpSec.
 - **Track B — The Curator:** the on-chain vault that pays the bot (Solidity, ERC-4626).
