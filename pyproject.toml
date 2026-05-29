@@ -1,0 +1,13 @@
+[project]
+name = "hyperator"
+version = "0.1.0"
+description = "The simplest possible Hyperliquid trading bot that does something real."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ccxt",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
